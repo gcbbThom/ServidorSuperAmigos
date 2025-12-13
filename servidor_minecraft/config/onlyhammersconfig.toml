@@ -1,0 +1,25 @@
+
+# --- Hammer Durability Settings ---
+DurabilityWoodenHammer=302 #Durability of the Wooden Hammer | default: 302
+DurabilityStoneHammer=650 #Durability of the Stone Hammer | default: 650
+DurabilityIronHammer=1300 #Durability of the Iron Hammer | default: 1300
+DurabilityGoldHammer=750 #Durability of the Gold Hammer | default: 750
+DurabilityLapisHammer=1100 #Durability of the Lapis Hammer | default: 1100
+DurabilityRedstoneHammer=1100 #Durability of the Redstone Hammer | default: 1100
+DurabilityObsidianHammer=11200 #Durability of the Obsidian Hammer | default: 11200
+DurabilityDiamondHammer=8025 #Durability of the Diamond Hammer | default: 8025
+DurabilityEmeraldHammer=9768 #Durability of the Emerald Hammer | default: 9768
+DurabilityNetheriteHammer=13675 #Durability of the Netherite Hammer | default: 13675
+
+# --- Hammer Radius Settings ---
+RadiusWoodenHammer=1 #Hammering radius for Wooden Hammer (radius 1 = 3×1 area) | default: 1
+RadiusStoneHammer=1 #Hammering radius for Stone Hammer (radius 1 = 3×1 area) | default: 1
+RadiusIronHammer=1 #Hammering radius for Iron Hammer (radius 1 = 3×1 area) | default: 1
+RadiusGoldHammer=1 #Hammering radius for Gold Hammer (radius 1 = 3×1 area) | default: 1
+RadiusLapisHammer=1 #Hammering radius for Lapis Hammer (radius 1 = 3×1 area) | default: 1
+RadiusRedstoneHammer=1 #Hammering radius for Redstone Hammer (radius 1 = 3×1 area) | default: 1
+RadiusObsidianHammer=1 #Hammering radius for Obsidian Hammer (radius 1 = 3×1 area) | default: 1
+RadiusDiamondHammer=1 #Hammering radius for Diamond Hammer (radius 1 = 3×1 area) | default: 1
+RadiusEmeraldHammer=1 #Hammering radius for Emerald Hammer (radius 1 = 3×1 area) | default: 1
+RadiusNetheriteHammer=1 #Hammering radius for Netherite Hammer (radius 1 = 3×1 area) | default: 1
+

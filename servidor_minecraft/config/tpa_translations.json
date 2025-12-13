@@ -1,0 +1,27 @@
+{
+  "en": {
+    "error_tpa_yourself": "Error : You can\u0027t tpa to yourself.",
+    "error_tpa_disabled": "This player has disabled tpa.",
+    "error_tpa_already_asked": "Error : You\u0027ve already asked to tpa to this player.",
+    "wants_tpa_teleport": "%s wants to teleport to you! Accept with /tpaccept or click here!",
+    "tpa_sent": "Your tpa request has been sent!",
+    "tpa_expired": "Your tpa request has expired.",
+    "error_tpahere_yourself": "Error : You can\u0027t tpahere to yourself.",
+    "error_tpahere_disabled": "This player has disabled tpahere.",
+    "error_tpahere_already_asked": "Error : You\u0027ve already asked to tpahere to this player.",
+    "wants_tpahere_teleport": "%s wants you to teleport to him! Accept with /tpaccept or click here!",
+    "tpa_here_sent": "Your tpahere request has been sent!",
+    "tpahere_expired": "Your tpahere request has expired.",
+    "teleport_success": "You have been successfully teleported!",
+    "error_tpaccept": "Error : There is no tpa to accept.",
+    "tpa_refused": "Your tpa request has been refused.",
+    "tpahere_refused": "Your tpahere request has been refused.",
+    "error_tpadeny": "Error : There is no tpa to deny.",
+    "tpacancel_success": "All of your tpa and tpahere requests have been cancelled!",
+    "tpalock_activated": "TPA lock activated!",
+    "tpalock_deactivated": "TPA lock deactivated!",
+    "tpalanguage_success": "TPA language changed!",
+    "tpalanguage_failure": "Error : The language provided is invalid.",
+    "version": "1.1"
+  }
+}

@@ -1,0 +1,1383 @@
+[05:37:21] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.10
+[05:37:22] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.6 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Simply Swords' (simplyswords) 1.62.0-1.21.1 recommends version 0.2.0 or later of oracle_index, which is missing!
+	 - You should install version 0.2.0 or later of oracle_index for the optimal experience.
+[05:37:22] [main/INFO]: Loading 169 mods:
+	- alcocraftplus 2.1.0
+	- appleskin 3.0.6+mc1.21
+	- architectury 13.0.8
+	- artifacts 12.0.5
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- balm 21.0.55
+	   \-- kuma_api 21.0.7
+	- bettercombat 2.3.0+1.21.1
+	- carryon 2.2.2
+	- chococraft 0.11.11
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.7
+	- cookingforblockheads 21.1.17
+	- cupboard 1.21-2.9
+	- diagonalwindows 21.1.1
+	   \-- diagonalblocks 21.1.1
+	- doubledoors 6.2
+	- elevatorid 1.21-1.11.1
+	- enchantinginfuser 21.1.1
+	- expandability 12.0.0
+	- expore 1.21.1-0.3
+	- fabric-api 0.116.7+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.16.10
+	- fallingtree 1.21.1.11
+	- ferritecore 7.0.2-hotfix
+	- forgeconfigapiport 21.1.6
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- formidulus 0.1.2-beta
+	   |-- cardinal-components-base 6.1.1
+	   |-- cardinal-components-entity 6.1.1
+	   |-- mm 2.3
+	   \-- yayconfig 1.0.3
+	- framework 0.13.5
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- fzzy_config 0.7.3+1.21
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- grindenchantments 4.0.0+1.21.1
+	   \-- codec-config-api 3.0.0+1.21.3
+	- hopobettermineshaft 1.3.0
+	- hopobetterruinedportal 1.4.4
+	- hopobetterunderwaterruins 1.2.1
+	- iceandfire 2.0-beta.10
+	   \-- integration 0.2
+	- immersive_armors 1.7.1+1.21.1
+	- immersiveores 1.21.1-1.1.4
+	   \-- playerabilitylib 1.10.0
+	- jade 15.10.2+fabric
+	- jamlib 1.3.5+1.21.1
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- jei 19.25.1.326
+	- journeymap 1.21.1-6.0.0-beta.52
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.18-1.21.1
+	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
+	- jupiter 2.3.1
+	- justenoughprofessions 4.0.4
+	- lithium 0.15.1+mc1.21.1
+	- measurements 3.0.3
+	- medievalend 1.0.4
+	- minecraft 1.21.1
+	- mr_blossom_blade 1.3
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- mr_serversleep 1-datapack
+	- netherchested 21.1.0
+	   \-- limitlesscontainers 21.1.0
+	- onlyexcavators 1.21.1-1.0.1
+	- onlyhammers 1.21.1-0.9
+	- playeranimator 2.0.1+1.21.1
+	- polymer-bundled 0.9.18+1.21.1
+	   |-- polymer-autohost 0.9.18+1.21.1
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.9.18+1.21.1
+	   |-- polymer-common 0.9.18+1.21.1
+	   |    \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-core 0.9.18+1.21.1
+	   |    |-- polymer-networking 0.9.18+1.21.1
+	   |    |    \-- polymer-common 0.9.18+1.21.1
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.18+1.21.1
+	   |-- polymer-resource-pack 0.9.18+1.21.1
+	   |    \-- polymer-common 0.9.18+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   \-- polymer-virtual-entity 0.9.18+1.21.1
+	        \-- polymer-common 0.9.18+1.21.1
+	             \-- packet_tweaker 0.5.5+1.21
+	- puzzleslib 21.1.39
+	- refurbished_furniture 1.0.16
+	- rightclickharvest 4.6.0+1.21.1
+	- sethome 1.0.0
+	- simplyswords 1.62.0-1.21.1
+	- sophisticatedbackpacks 1.21.1-3.23.4.3.106
+	- sophisticatedcore 1.21.1-1.2.9.20.164
+	   |-- mixinextras 0.5.0-beta.3
+	   |-- porting_lib_conditions 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_core 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_fluids 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_item_abilities 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_lazy_registration 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_level_events 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_loot 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_model_loader 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_render_types 3.1.0-beta.47+1.21.1
+	   |-- porting_lib_transfer 3.1.0-beta.47+1.21.1
+	   \-- team_reborn_energy 4.1.0
+	- structureessentials 1.21-4.8
+	- too_many_bows 1.21.1-2.3.4
+	- tpa-utilities 1.2.0
+	- trashslot 21.1.4
+	- trinkets 3.10.0
+	- u_desert 2.0.2
+	- universal-graves 3.4.4+1.21
+	   |-- common-protection-api 1.0.0
+	   |-- placeholder-api 2.4.1+1.21
+	   |-- predicate-api 0.5.1+1.21
+	   |-- server_translations_api 2.3.1+1.21-pre2
+	   \-- sgui 1.6.0+1.21
+	- universalbonemeal 21.1.0
+	- uranus 2.4
+	- voicechat 1.21.1-2.6.6
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- voicechat_api 2.6.0
+	- waystones 21.1.23
+[05:37:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServidorSuperAmigos/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:37:22] [main/INFO]: Compatibility level set to JAVA_21
+[05:37:23] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'diagonalwindows.common.refmap.json' for diagonalwindows.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'diagonalwindows.fabric.refmap.json' for diagonalwindows.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'elevatorid-common-common-refmap.json' for elevatorid.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'enchantinginfuser.common.refmap.json' for enchantinginfuser.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'enchantinginfuser.fabric.refmap.json' for enchantinginfuser.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'limitlesscontainers.common.refmap.json' for limitlesscontainers.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'limitlesscontainers.fabric.refmap.json' for limitlesscontainers.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[05:37:23] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[05:37:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[05:37:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[05:37:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[05:37:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[05:37:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[05:37:23] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[05:37:23] [main/WARN]: Reference map 'netherchested.fabric.refmap.json' for netherchested.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'universalbonemeal.common.refmap.json' for universalbonemeal.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Reference map 'universalbonemeal.fabric.refmap.json' for universalbonemeal.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:37:23] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[05:37:23] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[05:37:23] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[05:37:24] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[05:37:24] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[05:37:24] [main/INFO]: Loaded config for: structureessentials.json
+[05:37:24] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[05:37:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
+[05:37:32] [main/INFO]: Initializing recipes for AlcoCraftPlus
+[05:37:32] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[05:37:32] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[05:37:32] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[05:37:32] [main/ERROR]: No data fixer registered for artifacts:mimic
+[05:37:32] [main/ERROR]: No data fixer registered for chocobo
+[05:37:32] [main/INFO]: Loading Collective version 8.7.
+[05:37:33] [main/INFO]: Loaded config for: cupboard.json
+[05:37:33] [main/INFO]: Constructing common components for diagonalblocks:main
+[05:37:33] [main/INFO]: Constructing common components for diagonalwindows:main
+[05:37:33] [main/INFO]: Constructing shapes for DiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 22ms
+[05:37:33] [main/INFO]: Constructing common components for enchantinginfuser:main
+[05:37:33] [main/INFO]: ExpandAbility here, who dis?
+[05:37:33] [main/INFO]: Registering ModBlocks for expore
+[05:37:33] [main/INFO]: Registering Mod Items for expore
+[05:37:33] [main/ERROR]: No data fixer registered for deer_god
+[05:37:33] [main/ERROR]: No data fixer registered for irrlicht
+[05:37:33] [main/ERROR]: No data fixer registered for pumpkin
+[05:37:33] [main/ERROR]: No data fixer registered for deer_follower
+[05:37:33] [main/ERROR]: No data fixer registered for bulwark
+[05:37:33] [main/INFO]: Updating Timed Event State; These are basically realtime holidays:
+[05:37:33] [main/INFO]: formidulus:ween was 43 days ago.
+[05:37:33] [main/INFO]: formidulus:solstice_feast is in 11 days.
+[05:37:33] [main/INFO]: Reflections took 251 ms to scan 1 urls, producing 9 keys and 76 values
+[05:37:34] [main/ERROR]: No data fixer registered for seat
+[05:37:35] [main/ERROR]: No data fixer registered for dragon_multipart
+[05:37:35] [main/ERROR]: No data fixer registered for multipart
+[05:37:35] [main/ERROR]: No data fixer registered for hydra_multipart
+[05:37:35] [main/ERROR]: No data fixer registered for cylcops_multipart
+[05:37:35] [main/ERROR]: No data fixer registered for dragon_egg
+[05:37:35] [main/ERROR]: No data fixer registered for dragon_arrow
+[05:37:35] [main/ERROR]: No data fixer registered for dragon_skull
+[05:37:35] [main/ERROR]: No data fixer registered for fire_dragon
+[05:37:35] [main/ERROR]: No data fixer registered for ice_dragon
+[05:37:35] [main/ERROR]: No data fixer registered for lightning_dragon
+[05:37:35] [main/ERROR]: No data fixer registered for fire_dragon_charge
+[05:37:35] [main/ERROR]: No data fixer registered for ice_dragon_charge
+[05:37:35] [main/ERROR]: No data fixer registered for lightning_dragon_charge
+[05:37:35] [main/ERROR]: No data fixer registered for hippogryph_egg
+[05:37:35] [main/ERROR]: No data fixer registered for hippogryph
+[05:37:35] [main/ERROR]: No data fixer registered for stone_statue
+[05:37:35] [main/ERROR]: No data fixer registered for gorgon
+[05:37:35] [main/ERROR]: No data fixer registered for pixie
+[05:37:35] [main/ERROR]: No data fixer registered for cyclops
+[05:37:35] [main/ERROR]: No data fixer registered for siren
+[05:37:35] [main/ERROR]: No data fixer registered for hippocampus
+[05:37:35] [main/ERROR]: No data fixer registered for deathworm
+[05:37:35] [main/ERROR]: No data fixer registered for deathworm_egg
+[05:37:35] [main/ERROR]: No data fixer registered for cockatrice
+[05:37:35] [main/ERROR]: No data fixer registered for cockatrice_egg
+[05:37:35] [main/ERROR]: No data fixer registered for stymphalian_bird
+[05:37:35] [main/ERROR]: No data fixer registered for stymphalian_feather
+[05:37:35] [main/ERROR]: No data fixer registered for stymphalian_arrow
+[05:37:35] [main/ERROR]: No data fixer registered for troll
+[05:37:35] [main/ERROR]: No data fixer registered for amphithere
+[05:37:35] [main/ERROR]: No data fixer registered for amphithere_arrow
+[05:37:35] [main/ERROR]: No data fixer registered for sea_serpent
+[05:37:35] [main/ERROR]: No data fixer registered for sea_serpent_bubbles
+[05:37:35] [main/ERROR]: No data fixer registered for sea_serpent_arrow
+[05:37:35] [main/ERROR]: No data fixer registered for chain_tie
+[05:37:35] [main/ERROR]: No data fixer registered for pixie_charge
+[05:37:35] [main/ERROR]: No data fixer registered for tide_trident
+[05:37:35] [main/ERROR]: No data fixer registered for mob_skull
+[05:37:35] [main/ERROR]: No data fixer registered for dread_thrall
+[05:37:35] [main/ERROR]: No data fixer registered for dread_ghoul
+[05:37:35] [main/ERROR]: No data fixer registered for dread_beast
+[05:37:35] [main/ERROR]: No data fixer registered for dread_scuttler
+[05:37:35] [main/ERROR]: No data fixer registered for dread_lich
+[05:37:35] [main/ERROR]: No data fixer registered for dread_lich_skull
+[05:37:35] [main/ERROR]: No data fixer registered for dread_knight
+[05:37:35] [main/ERROR]: No data fixer registered for dread_horse
+[05:37:35] [main/ERROR]: No data fixer registered for hydra
+[05:37:35] [main/ERROR]: No data fixer registered for hydra_breath
+[05:37:35] [main/ERROR]: No data fixer registered for hydra_arrow
+[05:37:35] [main/ERROR]: No data fixer registered for ghost
+[05:37:35] [main/ERROR]: No data fixer registered for ghost_sword
+[05:37:35] [main/INFO]: Registering C2S receiver with id iceandfire:dragon_control
+[05:37:35] [main/INFO]: Registering C2S receiver with id iceandfire:multipart_interact
+[05:37:35] [main/INFO]: Registering C2S receiver with id iceandfire:player_hit_multipart
+[05:37:35] [main/INFO]: Registering C2S receiver with id iceandfire:start_riding_mob_c2s
+[05:37:35] [main/INFO]: [STDOUT]: All 43 have been set properly
+[05:37:35] [main/INFO]: Initializing JamLib on Fabric
+[05:37:35] [main/INFO]: Initializing ServerSide Packet Registries
+[05:37:35] [main/INFO]: Constructing common components for limitlesscontainers:main
+[05:37:35] [main/INFO]: Definitely not up to no good
+[05:37:35] [main/INFO]: Constructing common components for netherchested:main
+[05:37:35] [main/INFO]: [STDOUT]: All 20 have been set properly
+[05:37:35] [main/INFO]: [STDOUT]: All 20 have been set properly
+[05:37:35] [main/INFO]: Constructing common components for puzzleslib:main
+[05:37:36] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[05:37:36] [main/INFO]: Updated config file at /workspaces/ServidorSuperAmigos/servidor_minecraft/config/rightclickharvest.json5
+[05:37:36] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[05:37:36] [main/INFO]: SetHome mod initialized!
+[05:37:36] [main/INFO]: Loaded config simplyswords:general in 367ms
+[05:37:36] [main/INFO]: Loaded config simplyswords:gem_powers in 252ms
+[05:37:36] [main/INFO]: Loaded config simplyswords:status_effects in 5ms
+[05:37:37] [main/INFO]: Loaded config simplyswords:weapon_attributes in 74ms
+[05:37:37] [main/INFO]: Loaded config simplyswords:unique_effects in 170ms
+[05:37:37] [main/ERROR]: No data fixer registered for battlestandard
+[05:37:37] [main/ERROR]: No data fixer registered for battlestandarddark
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:simplyaxolotlentity
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:thrown_sword
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:frostfall_entity
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:livyatan_entity
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:spear_entity
+[05:37:37] [main/ERROR]: No data fixer registered for simplyswords:runic_entity
+[05:37:37] [main/INFO]: [STDOUT]: /workspaces/ServidorSuperAmigos/servidor_minecraft/config
+[05:37:37] [main/ERROR]: No data fixer registered for 
+[05:37:37] [main/INFO]: structureessentials mod initialized
+[05:37:37] [main/ERROR]: No data fixer registered for frostbite_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:dragons_breath_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:sonic_boom_projectile
+[05:37:37] [main/ERROR]: No data fixer registered for venom_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for flame_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for solar_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for tidal_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for cursed_flame_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:lightning_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:wind_projectile
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:icicle_javelin
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:hunter_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:astral_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:hunter_xp_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:ancient_sage_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:sentinel_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:vitality_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:ethereal_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:shulker_blast_projectile
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:spectral_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:aurora_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:aurora_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:radiant_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:dusk_reaper_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:ironclad_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:webstring_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:torchbearer_arrow
+[05:37:37] [main/ERROR]: No data fixer registered for too_many_bows:light_orb
+[05:37:37] [main/INFO]: TPA Utilities has been loaded successfully!
+[05:37:37] [main/INFO]: Constructing common components for universalbonemeal:main
+[05:37:37] [main/INFO]: [voicechat] Compatibility version 20
+[05:37:37] [main/INFO]: [voicechat] Loading plugins
+[05:37:37] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[05:37:37] [main/INFO]: [voicechat] Initializing plugins
+[05:37:37] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[05:37:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:37:39] [Worker-Main-3/INFO]: Loaded config simplyswords:loot in 12ms
+[05:37:40] [main/ERROR]: Parsing error loading recipe iceandfire:delight/pixie_dust_milky_tea
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.0]
+[05:37:40] [main/ERROR]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_ice_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.0]
+[05:37:40] [main/ERROR]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_lightning_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.0]
+[05:37:40] [main/ERROR]: Parsing error loading recipe iceandfire:delight/ghost_cream
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.0]
+[05:37:40] [main/ERROR]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_fire_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.0]
+[05:37:40] [main/INFO]: Loaded 2991 recipes
+[05:37:41] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[05:37:41] [main/INFO]: Loaded 2953 advancements
+[05:37:41] [main/WARN]: Notice: Jupiter cannot resolve empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[05:37:41] [main/INFO]: Config spec loading complete, found 3 configs from 2 mods.
+[05:37:41] [main/INFO]: Successfully reload 4 server config(s).
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[05:37:41] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[05:37:42] [main/INFO]: Applied 634 biome modifications to 66 of 66 new biomes in 21.02 ms
+[05:37:42] [Server thread/INFO]: Dispatching loading event for config enchantinginfuser-server.toml
+[05:37:42] [Server thread/INFO]: Dispatching loading event for config netherchested-server.toml
+[05:37:42] [Server thread/INFO]: Dispatching loading event for config universalbonemeal-server.toml
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:aethers_call
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:anchor
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:ancient_sage_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:arc_heavens
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:arcane_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:arcanethyst
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:astral_bound
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:auroras_grace
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:awakened_lichblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:axe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:battlestaff
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:bow_two_handed_heavy
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:bow_two_handed_light
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:bramblethorn
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:brimstone_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:burnt_relic
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:caelestis
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:chompolotl
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:claw
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:coral_blade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:crimson_nexus
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:crossbow_two_handed_heavy
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:crossbow_two_handed_light
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:cyroheart_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:dagger
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:dark_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:decaying_relic
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:demons_grasp
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:diamond_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:diamond_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:dormant_relic
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:double_axe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:dragons_breath
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:dreadtide
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:dusk_reaper
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:electric_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:emberblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:emberlash
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:emerald_sage_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:enigma
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:ethereal_hunter
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:fist
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:flame_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:flamewind
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:frostbite
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:frostfall
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber/gobber_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_end/gobber_end_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gobber_compat/gobber_nether/gobber_nether_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:gold_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:golden_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:hammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:harbinger
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:hearthflame
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:heavy_axe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:hiveheart
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:hunter_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:icewhisper
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:iron_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:iron_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:ironclad_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:lance
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:livyatan
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:mace
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:mace
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:magiblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:magic_estoc
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:magiscythe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:magispear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mjolnir
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:molten_edge
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/adamantite/adamantite_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/aquarium/aquarium_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/banglum/banglum_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/bronze/bronze_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/carmot/carmot_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/celestium/celestium_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/durasteel/durasteel_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/durasteel/durasteel_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/kyber/kyber_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/metallurgium/metallurgium_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/mythril/mythril_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/orichalcum/orichalcum_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/osmium/osmium_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/palladium/palladium_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/prometheum/prometheum_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/quadrillum/quadrillum_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/runite/runite_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/star_platinum/star_platinum_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/steel/steel_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:mythicmetals_compat/stormyx/stormyx_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:necro_flame_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:netherite_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:netherite_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:pickaxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:radiance
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:ribboncleaver
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:righteous_relic
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_chakram
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_cutlass
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_glaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_greataxe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_greathammer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_halberd
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_katana
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_rapier
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_sai
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_twinblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:runic_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:scatter_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:scythe
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:sentinels_wrath
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:shadowsting
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:shulker_blast
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:sickle
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:slumbering_lichblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:solar_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:soul_knife
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:soulkeeper
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:soulpyre
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:soulrender
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:soulstealer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:spear
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:spectral_whisper
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:staff
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:stars_edge
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:stone_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:stormbringer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:storms_edge
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:stormscale
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:sunfire
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:sword_on_a_stick
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:tainted_relic
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:tempest
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:the_dispatcher
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:thunderbrand
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:tidal_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:torchbearer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:toxic_longsword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:trident
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:trident
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:twilight
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:twin_blade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:twin_shadows
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:twisted_blade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:vanilla_mace
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:verdant_vigor
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:verdant_viper
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:vitality_weaver
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:waking_lichblade
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: bettercombat:wand
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:watcher_claymore
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:watching_warglaive
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:waxweaver
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:whisperwind
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:wickpiercer
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: too_many_bows:wind_bow
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: minecraft:wooden_sword
+[05:37:42] [Server thread/INFO]: [STDOUT]: Loaded container: simplyswords:wraithfang
+[05:37:42] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 27583 bytes (in 3 string chunks with the size of 10000)
+[05:37:42] [Server thread/INFO]: Loading server configs...
+[05:37:42] [Server thread/INFO]: [Grind Enchantments] Reading server config.
+[05:37:43] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[05:37:43] [Server thread/INFO]: Loading properties
+[05:37:43] [Server thread/INFO]: Default game type: SURVIVAL
+[05:37:43] [Server thread/INFO]: Generating keypair
+[05:37:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:37:43] [Server thread/INFO]: Using epoll channel type
+[05:37:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:37:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:37:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:37:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:37:43] [Server thread/INFO]: Preparing level "world"
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, nova_structures:end_castle, minecraft:strongholds, minecraft:buried_treasures]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost_mineshafts, nova_structures:badlands_miner_outpost]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:78409300 potentially creating overlapping structures detected. Structure sets: [nova_structures:shrine_tower, nova_structures:shrines]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:7407930 potentially creating overlapping structures detected. Structure sets: [iceandfire:pixie_village, iceandfire:cyclops_cave]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp, nova_structures:villages_birch]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[05:37:50] [Server thread/WARN]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[05:37:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:37:51] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[05:37:51] [Server thread/INFO]: Time elapsed: 745 ms
+[05:37:51] [Server thread/INFO]: Done (8.080s)! For help, type "help"
+[05:37:51] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
+[05:37:51] [Server thread/INFO]: Start loading plugin from Cooking for Blockheads: net.blay09.mods.cookingforblockheads.fabric.compat.FabricJadeCookingForBlockheadsPlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Ice And Fire Community Edition: com.iafenvoy.iceandfire.compat.jade.IceAndFireJadePlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[05:37:51] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[05:37:51] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[05:37:51] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[05:37:51] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@3770b0b0 for service interface journeymap.api.services.ClientPlatformService
+[05:37:51] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@62d195c4 for service interface journeymap.api.services.CommonPlatformService
+[05:37:51] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[05:37:51] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'common-physical.gl.at.ply.gg'
+[05:37:51] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 41428
+[05:38:25] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[05:38:25] [Server thread/INFO]: NoSoyLia[/127.9.216.89:53883] logged in with entity id 8 at (2.5, 72.0, 9.5)
+[05:38:25] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[05:38:25] [Server thread/INFO]: NoSoyLia joined the game
+[05:38:25] [Server thread/INFO]: NoSoyLia has made the advancement [Ice and Fire]
+[05:38:25] [Server thread/INFO]: [voicechat] Received secret request of NoSoyLia (20)
+[05:38:25] [Server thread/INFO]: [voicechat] Sent secret to NoSoyLia
+[05:38:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[05:38:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[05:38:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player NoSoyLia (73e36a50-6e06-34b7-a4c5-a6f5f1d5a713) successfully connected to voice chat
+[05:38:31] [Server thread/INFO]: Akuma[/127.225.113.230:55865] logged in with entity id 223 at (773.6942892511094, 75.92159999847412, 489.40399369089715)
+[05:38:31] [Server thread/INFO]: Akuma joined the game
+[05:38:32] [Server thread/INFO]: [voicechat] Received secret request of Akuma (20)
+[05:38:32] [Server thread/INFO]: [voicechat] Sent secret to Akuma
+[05:38:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b4350bf1-0ec0-3ba4-a857-9711e20648d5
+[05:38:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b4350bf1-0ec0-3ba4-a857-9711e20648d5
+[05:38:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Akuma (b4350bf1-0ec0-3ba4-a857-9711e20648d5) successfully connected to voice chat
+[05:40:09] [Server thread/INFO]: NoSoyLia has made the advancement [Too Many Bows]
+[05:40:42] [Server thread/INFO]: NoSoyLia has made the advancement [Suit Up]
+[05:41:19] [Server thread/INFO]: Not_Thom[/127.205.175.130:44469] logged in with entity id 1754 at (724.0137262143003, 64.0, 472.60320466944603)
+[05:41:19] [Server thread/INFO]: Not_Thom joined the game
+[05:41:19] [Server thread/INFO]: [voicechat] Received secret request of Not_Thom (20)
+[05:41:19] [Server thread/INFO]: [voicechat] Sent secret to Not_Thom
+[05:41:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ea1c7427-1dc8-3390-892c-173b4a61ba82
+[05:41:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ea1c7427-1dc8-3390-892c-173b4a61ba82
+[05:41:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Not_Thom (ea1c7427-1dc8-3390-892c-173b4a61ba82) successfully connected to voice chat
+[05:43:38] [Server thread/INFO]: NoSoyLia has made the advancement [Isn't It Iron Pick]
+[05:47:37] [Server thread/INFO]: NoSoyLia was slain by Zombie
+[05:47:38] [Server thread/INFO]: NoSoyLia has made the advancement [Monster Hunter]
+[05:47:53] [Server thread/WARN]: Akuma moved too quickly! 3.696483481256678,0.0,-9.340793940240331
+[05:47:53] [Server thread/WARN]: NoSoyLia moved too quickly! 8.239417487069886,1.0,-6.05713416571399
+[05:49:22] [Server thread/INFO]: NoSoyLia lost connection: Disconnected
+[05:49:22] [Server thread/INFO]: NoSoyLia left the game
+[05:49:22] [Server thread/INFO]: [voicechat] Disconnecting client NoSoyLia
+[05:50:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f6d3f0f[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[05:50:15] [Server thread/WARN]: handleDisconnection() called twice
+[05:50:15] [Server thread/WARN]: handleDisconnection() called twice
+[05:50:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@670b4cd5[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[05:50:20] [Server thread/WARN]: handleDisconnection() called twice
+[05:50:20] [Server thread/WARN]: handleDisconnection() called twice
+[05:52:00] [Server thread/INFO]: NoSoyLia[/127.9.216.89:55597] logged in with entity id 5156 at (939.7009563270541, 127.0, 236.20465489844915)
+[05:52:00] [Server thread/INFO]: NoSoyLia joined the game
+[05:52:01] [Server thread/INFO]: [voicechat] Received secret request of NoSoyLia (20)
+[05:52:01] [Server thread/INFO]: [voicechat] Sent secret to NoSoyLia
+[05:52:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[05:52:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[05:52:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player NoSoyLia (73e36a50-6e06-34b7-a4c5-a6f5f1d5a713) successfully connected to voice chat
+[05:52:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@3633a5c0[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[05:52:08] [Server thread/WARN]: handleDisconnection() called twice
+[05:52:08] [Server thread/WARN]: handleDisconnection() called twice
+[05:54:53] [Server thread/INFO]: NoSoyLia lost connection: Disconnected
+[05:54:53] [Server thread/INFO]: NoSoyLia left the game
+[05:54:53] [Server thread/INFO]: [voicechat] Disconnecting client NoSoyLia
+[05:58:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@6dad6076[id=73e36a50-6e06-34b7-a4c5-a6f5f1d5a713,name=NoSoyLia,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[05:58:44] [Server thread/WARN]: handleDisconnection() called twice
+[05:58:44] [Server thread/WARN]: handleDisconnection() called twice
+[05:59:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@22053a5a[id=73e36a50-6e06-34b7-a4c5-a6f5f1d5a713,name=NoSoyLia,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[05:59:43] [Server thread/WARN]: handleDisconnection() called twice
+[05:59:43] [Server thread/WARN]: handleDisconnection() called twice
+[06:00:53] [Server thread/INFO]: NoSoyLia[/127.9.216.89:43489] logged in with entity id 7242 at (939.7009563270541, 127.0, 236.20465489844915)
+[06:00:53] [Server thread/INFO]: NoSoyLia joined the game
+[06:00:54] [Server thread/INFO]: [voicechat] Received secret request of NoSoyLia (20)
+[06:00:54] [Server thread/INFO]: [voicechat] Sent secret to NoSoyLia
+[06:00:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[06:00:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 73e36a50-6e06-34b7-a4c5-a6f5f1d5a713
+[06:00:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player NoSoyLia (73e36a50-6e06-34b7-a4c5-a6f5f1d5a713) successfully connected to voice chat
+[06:02:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@370a2116[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[06:02:42] [Server thread/WARN]: handleDisconnection() called twice
+[06:02:42] [Server thread/WARN]: handleDisconnection() called twice
+[06:02:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@7bfc41dd[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[06:02:47] [Server thread/WARN]: handleDisconnection() called twice
+[06:02:47] [Server thread/WARN]: handleDisconnection() called twice
+[06:02:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@350ec74e[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[06:02:50] [Server thread/WARN]: handleDisconnection() called twice
+[06:02:50] [Server thread/WARN]: handleDisconnection() called twice
+[06:05:21] [Server thread/INFO]: DakiSahur[/127.110.143.19:38449] logged in with entity id 8528 at (533.7364157461493, 102.0, 503.2165033039193)
+[06:05:21] [Server thread/INFO]: DakiSahur joined the game
+[06:05:21] [Server thread/INFO]: [voicechat] Received secret request of DakiSahur (20)
+[06:05:21] [Server thread/INFO]: [voicechat] Sent secret to DakiSahur
+[06:05:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 116929b2-3a46-3f9b-aca5-855a27c6bef6
+[06:05:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 116929b2-3a46-3f9b-aca5-855a27c6bef6
+[06:05:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DakiSahur (116929b2-3a46-3f9b-aca5-855a27c6bef6) successfully connected to voice chat
+[06:05:26] [Server thread/INFO]: [Not Secure] <DakiSahur> Ay si
+[06:05:30] [Server thread/INFO]: [Not Secure] <DakiSahur> Ay si
+[06:05:34] [Server thread/INFO]: [Not Secure] <DakiSahur> Que rico papi
+[06:06:12] [Server thread/INFO]: NoSoyLia was slain by Not_Thom
+[06:06:17] [Server thread/INFO]: [Not Secure] <DakiSahur> ¿Lia por que es negra? xd
+[06:06:19] [Server thread/INFO]: [Not Secure] <DakiSahur> xdd
+[06:06:36] [Server thread/INFO]: [STDOUT]: [SetHome] Setting home in dimension: minecraft:overworld
+[06:06:36] [Server thread/INFO]: [STDOUT]: [SetHome] Home set successfully for player: 116929b2-3a46-3f9b-aca5-855a27c6bef6
+[06:06:41] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:06:41] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:06:41] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:06:41] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:06:41] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:06:56] [Server thread/INFO]: NoSoyLia was slain by Not_Thom
+[06:06:59] [Server thread/INFO]: NoSoyLia lost connection: Disconnected
+[06:06:59] [Server thread/INFO]: NoSoyLia left the game
+[06:06:59] [Server thread/INFO]: [voicechat] Disconnecting client NoSoyLia
+[06:08:08] [Server thread/INFO]: [Not Secure] <DakiSahur> Bro tp
+[06:09:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[06:09:38] [Server thread/INFO]: a<--[HERE]
+[06:10:01] [Server thread/INFO]: [Not Secure] <DakiSahur> xd
+[06:10:09] [Server thread/INFO]: [Not Secure] <DakiSahur> Encontre una tumba
+[06:10:43] [Server thread/INFO]: DakiSahur was turned into KFC by Fire Dragon
+[06:12:17] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:12:17] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:12:17] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:12:17] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:12:17] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:12:24] [Server thread/INFO]: DakiSahur was turned into KFC by Fire Dragon
+[06:12:42] [Server thread/INFO]: DakiSahur fell from a high place
+[06:12:57] [Server thread/INFO]: [Not Secure] <Akuma> xd
+[06:13:22] [Server thread/INFO]: DakiSahur was incinerated by Fire Dragon
+[06:13:26] [Server thread/INFO]: [Not Secure] <DakiSahur> OAKJSDHGAUIBD
+[06:13:34] [Server thread/INFO]: DakiSahur was incinerated by Fire Dragon
+[06:13:37] [Server thread/INFO]: [Not Secure] <DakiSahur> mano
+[06:13:40] [Server thread/INFO]: [Not Secure] <DakiSahur> que putas
+[06:13:43] [Server thread/INFO]: [Not Secure] <DakiSahur> Mi casa tio
+[06:14:31] [Server thread/INFO]: [Not Secure] <Not_Thom> daki
+[06:14:36] [Server thread/INFO]: [Not Secure] <DakiSahur> Dime
+[06:14:40] [Server thread/INFO]: [Not Secure] <Not_Thom> No va a entrar a dis
+[06:14:44] [Server thread/INFO]: [Not Secure] <DakiSahur> Sipi
+[06:15:47] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:15:47] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:15:47] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:15:47] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:15:47] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:17:57] [Server thread/INFO]: Not_Thom lost connection: Disconnected
+[06:17:57] [Server thread/INFO]: Not_Thom left the game
+[06:17:57] [Server thread/INFO]: [voicechat] Disconnecting client Not_Thom
+[06:18:18] [Server thread/INFO]: Not_Thom[/127.205.175.130:59673] logged in with entity id 16868 at (933.5188401225761, 119.0, 122.41857830054471)
+[06:18:18] [Server thread/INFO]: Not_Thom joined the game
+[06:18:18] [Server thread/INFO]: [voicechat] Received secret request of Not_Thom (20)
+[06:18:18] [Server thread/INFO]: [voicechat] Sent secret to Not_Thom
+[06:18:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ea1c7427-1dc8-3390-892c-173b4a61ba82
+[06:18:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ea1c7427-1dc8-3390-892c-173b4a61ba82
+[06:18:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Not_Thom (ea1c7427-1dc8-3390-892c-173b4a61ba82) successfully connected to voice chat
+[06:19:02] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:19:02] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:19:02] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:19:02] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:19:02] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:19:23] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:19:23] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:19:23] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:19:23] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:19:23] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:19:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@382a9185[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[06:19:47] [Server thread/WARN]: handleDisconnection() called twice
+[06:19:47] [Server thread/WARN]: handleDisconnection() called twice
+[06:19:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@3d220104[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[06:19:50] [Server thread/WARN]: handleDisconnection() called twice
+[06:19:50] [Server thread/WARN]: handleDisconnection() called twice
+[06:19:53] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[06:19:53] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[06:19:53] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[06:19:53] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[06:19:53] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[06:26:09] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:26:30] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:29:18] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:30:08] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:30:13] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:30:17] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:30:38] [Server thread/INFO]: DakiSahur was torn apart by Cervus Cruoris
+[06:31:36] [Server thread/INFO]: Akuma has made the advancement [To beer or not to beer]
+[06:31:54] [Server thread/INFO]: Akuma has made the advancement [Bringer of Storms]
+[06:33:45] [Server thread/INFO]: DakiSahur was sacrificed by Servant of Cruor
+[06:39:34] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:39:41] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:40:26] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[06:40:46] [Server thread/WARN]: Akuma moved too quickly! -8.080033768908834,0.34203916261291756,6.126995901049753
+[06:41:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[06:41:27] [Server thread/INFO]: a<--[HERE]
+[06:41:59] [Server thread/INFO]: DakiSahur was doomed to fall by Cervus Cruoris
+[06:48:13] [Server thread/INFO]: Akuma was turned to ice by Ice Dragon
+[06:55:58] [Server thread/INFO]: Villager class_1646['Nitwit'/36007, l='ServerLevel[world]', x=1488.28, y=63.00, z=239.30] died, message: 'Nitwit was slain by Zombie'
+[06:58:58] [Server thread/INFO]: Akuma has made the advancement [Cultists ? In §omy§r Computer ?]
+[07:01:15] [Server thread/INFO]: DakiSahur has made the advancement [A Major Trial Of Strengh]
+[07:01:31] [Server thread/INFO]: DakiSahur has made the advancement [Sneak 100]
+[07:02:02] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:02:24] [Server thread/INFO]: Akuma hit the ground too hard
+[07:03:16] [Server thread/INFO]: Akuma lost connection: Disconnected
+[07:03:16] [Server thread/INFO]: Akuma left the game
+[07:03:16] [Server thread/INFO]: [voicechat] Disconnecting client Akuma
+[07:03:22] [Server thread/INFO]: Akuma[/127.225.113.230:57273] logged in with entity id 47748 at (1576.6750246909892, 105.0, 168.6226945136958)
+[07:03:22] [Server thread/INFO]: Akuma joined the game
+[07:03:22] [Server thread/INFO]: [voicechat] Received secret request of Akuma (20)
+[07:03:22] [Server thread/INFO]: [voicechat] Sent secret to Akuma
+[07:03:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b4350bf1-0ec0-3ba4-a857-9711e20648d5
+[07:03:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b4350bf1-0ec0-3ba4-a857-9711e20648d5
+[07:03:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Akuma (b4350bf1-0ec0-3ba4-a857-9711e20648d5) successfully connected to voice chat
+[07:03:32] [Server thread/INFO]: Akuma was sacrificed by Servant of Cruor
+[07:03:54] [Server thread/INFO]: DakiSahur was shot by Skeleton
+[07:10:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@7d311cfa[id=20a2ac42-b45d-37bc-a47f-5cad0c425943,name=sinis_454,properties={}] lost connection: Network configuration task not supported: bettercombat:config
+[07:10:07] [Server thread/WARN]: handleDisconnection() called twice
+[07:10:07] [Server thread/WARN]: handleDisconnection() called twice
+[07:10:45] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:10:49] [Server thread/INFO]: Akuma was torn apart by Cervus Cruoris
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-91, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-90, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-90, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-90, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-89, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-89, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-89, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-88, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-88, z=1422}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-91, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-91, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-91, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-144, y=-90, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-90, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-90, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-90, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-89, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-89, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-89, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-140, y=-89, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-143, y=-88, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-88, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-88, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-142, y=-87, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 88], pos: class_2339{x=-141, y=-87, z=1423}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-91, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-91, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-91, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-90, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-90, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-90, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-90, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-89, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-89, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-89, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-89, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-140, y=-89, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-88, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-88, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-88, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-88, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-140, y=-88, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-87, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-87, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-87, z=1424}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-91, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-91, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-90, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-90, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-90, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-90, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-89, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-89, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-89, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-89, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-144, y=-88, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-88, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-88, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-141, y=-88, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-87, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-87, z=1425}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-90, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-90, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-89, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-89, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-143, y=-88, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:10:54] [Worker-Main-2/ERROR]: Detected setBlock in a far chunk [-9, 89], pos: class_2339{x=-142, y=-88, z=1426}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:11:28] [Server thread/INFO]: Akuma was sacrificed by Servant of Cruor
+[07:11:28] [Server thread/ERROR]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[07:11:28] [Server thread/ERROR]: Combo count: 12 is dual wielding: false
+[07:11:28] [Server thread/ERROR]: Main-hand stack: 0 minecraft:air
+[07:11:28] [Server thread/ERROR]: Off-hand stack: 0 minecraft:air
+[07:11:28] [Server thread/ERROR]: Selected slot server: 6 | client: 6
+[07:13:51] [Server thread/INFO]: DakiSahur was turned to ice by Ice Dragon
+[07:13:56] [Server thread/INFO]: Akuma was sacrificed by Servant of Cruor
+[07:16:59] [Server thread/WARN]: DakiSahur moved too quickly! 6.249425271770349,0.8800391385729398,7.8806400646233215
+[07:17:25] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[07:22:06] [Server thread/INFO]: [STDOUT]: [SetHome] Home dimension string: minecraft:overworld
+[07:22:06] [Server thread/INFO]: [STDOUT]: [SetHome] Created world key: ResourceKey[minecraft:dimension / minecraft:overworld]
+[07:22:06] [Server thread/INFO]: [STDOUT]: [SetHome] Target world: found
+[07:22:06] [Server thread/INFO]: [STDOUT]: [SetHome] Attempting to teleport player to: class_2338{x=534, y=102, z=502} in dimension: minecraft:overworld
+[07:22:06] [Server thread/INFO]: [STDOUT]: [SetHome] Same dimension teleport to: 534.5, 102.0, 502.5
+[07:25:15] [Server thread/INFO]: Not_Thom lost connection: Disconnected
+[07:25:15] [Server thread/INFO]: Not_Thom left the game
+[07:25:15] [Server thread/INFO]: [voicechat] Disconnecting client Not_Thom
+[07:25:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:25:36] [Server thread/INFO]: a<--[HERE]
+[07:28:23] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:28:36] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:28:49] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:28:54] [Server thread/INFO]: Akuma was torn apart by Cervus Cruoris
+[07:28:54] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:29:03] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:32] [Server thread/INFO]: Akuma was burned to a crisp while fighting Cervus Cruoris
+[07:30:33] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:37] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:46] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:46] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:47] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:47] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:30:47] [Server thread/WARN]: Deer couldn't find a free spot to teleport to!
+[07:31:21] [Server thread/INFO]: DakiSahur was torn apart by Cervus Cruoris
+[07:31:21] [Server thread/INFO]: Akuma has completed the challenge [A Light in the Darkness]
+[07:33:00] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:33:00] [Server thread/INFO]: salgansen kbros<--[HERE]
+[07:38:04] [Worker-Main-2/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[07:38:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:38:37] [Server thread/INFO]: a<--[HERE]
+[07:39:51] [Server thread/INFO]: Villager class_1646['Unemployed'/73860, l='ServerLevel[world]', x=1906.38, y=83.00, z=132.28] died, message: 'Unemployed was turned into KFC by Fire Dragon'
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=57}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=57}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-6, z=58}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-6, z=58}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=58}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=58}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-6, z=59}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-6, z=59}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=59}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=59}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-6, z=60}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-6, z=60}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=60}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=60}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-6, z=61}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=61}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=61}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-6, z=62}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2034, y=-5, z=62}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=62}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:42:24] [Worker-Main-3/ERROR]: Detected setBlock in a far chunk [127, 3], pos: class_2339{x=2035, y=-5, z=63}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / immersiveores:vibranium_geode_placed]
+[07:43:24] [Server thread/INFO]: DakiSahur burned to death
+[07:44:34] [Server thread/INFO]: DakiSahur burned to death
+[07:44:49] [Server thread/INFO]: Akuma was turned into KFC by Fire Dragon

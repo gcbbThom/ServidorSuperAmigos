@@ -1,0 +1,66 @@
+
+# --- Vulpus Armor Protection and Resistance ---
+protectionValueVulpusBoots=9 #Protection value of Vulpus Boots | default: 9
+protectionValueVulpusLeggings=12 #Protection value of Vulpus Leggings | default: 12
+protectionValueVulpusChestplate=16 #Protection value of Vulpus Chestplate | default: 16
+protectionValueVulpusHelmet=9 #Protection value of Vulpus Helmet | default: 9
+toughnessValueVulpusArmor=7 #Toughness value of Vulpus Armor | default: 7
+enchantmentValueVulpusArmor=65 #Enchantment value of Vulpus Armor | default: 65
+knockbackResistanceValueVulpusArmor=2 #Knockback resistance of Vulpus Armor | default: 2
+
+# --- Vulpus Armor Special Effects and Abilities ---
+speedIIVulpusArmor=true #Speed II effect for Vulpus Armor | default: true
+jumpIIVulpusArmor=true #Jump II effect for Vulpus Armor | default: true
+nightVisionVulpusArmor=true #Night Vision for Vulpus Armor | default: true
+fireResistanceVulpusArmor=true #Fire Resistance for Vulpus Armor | default: true
+immuneToFallDamageVulpusArmor=true #Fall Damage Immunity for Vulpus Armor | default: true
+neverLoseHungerVulpusArmor=true #Prevention of Hunger Loss for Vulpus Armor | default: true
+canWalkOnPowderedSnowVulpus=true #Walking on Powdered Snow with Vulpus Armor | default: true
+makesPiglinsNeutralVulpus=true #Piglins become Neutral with Vulpus Armor | default: true
+
+# --- Vulpus Bow ---
+enchantmentValueVulpusBow=5 #Enchantment value of Vulpus Bow | default: 5
+damageVulpusBow=10 #Damage of Vulpus Bow | default: 10
+arrowCountVulpusBow=3 #Arrow count for Vulpus Bow | default: 3
+
+# --- Vulpus Tool Tier Base ---
+speedVulpusTier=40 #Mining speed of Vulpus tier | default: 40
+enchantmentValueVulpusTier=65 #Enchantment value of Vulpus tier | default: 65
+attackDamageBonusVulpusTier=3 #Attack damage bonus of Vulpus tier | default: 3
+durabilityVulpus=3093 #Durability of Vulpus tools | default: 3093
+unbreakableVulpus=false #Whether Vulpus tools are unbreakable | default: false
+
+# --- Vulpus Pickaxe ---
+attackDamageVulpusPickaxe=10 #Attack damage of Vulpus Pickaxe | default: 10
+attackSpeedVulpusPickaxe=0.5 #Attack speed of Vulpus Pickaxe | default: 0.5
+
+# --- Vulpus Axe ---
+attackDamageVulpusAxe=15 #Attack damage of Vulpus Axe | default: 15
+attackSpeedVulpusAxe=0.5 #Attack speed of Vulpus Axe | default: 0.5
+
+# --- Vulpus Shovel ---
+attackDamageVulpusShovel=10 #Attack damage of Vulpus Shovel | default: 10
+attackSpeedVulpusShovel=0.5 #Attack speed of Vulpus Shovel | default: 0.5
+
+# --- Vulpus Sword ---
+attackDamageVulpusSword=14 #Attack damage of Vulpus Sword | default: 14
+attackSpeedVulpusSword=0.5 #Attack speed of Vulpus Sword | default: 0.5
+
+# --- Vulpus Hoe ---
+attackDamageVulpusHoe=10 #Attack damage of Vulpus Hoe | default: 10
+attackSpeedVulpusHoe=0.5 #Attack speed of Vulpus Hoe | default: 0.5
+
+# --- Vulpus Paxel ---
+attackDamageVulpusPaxel=15 #Attack damage of Vulpus Paxel | default: 15
+attackSpeedVulpusPaxel=0.5 #Attack speed of Vulpus Paxel | default: 0.5
+
+# --- Vulpus Hammer ---
+attackDamageVulpusHammer=11 #Attack damage of Vulpus Hammer | default: 11
+attackSpeedVulpusHammer=0.5 #Attack speed of Vulpus Hammer | default: 0.5
+radiusVulpusHammer=2 #Hammering radius for Vulpus Hammer | default: 2
+
+# --- Vulpus Excavator ---
+attackDamageVulpusExcavator=11 #Attack damage of Vulpus Excavator | default: 11
+attackSpeedVulpusExcavator=0.5 #Attack speed of Vulpus Excavator | default: 0.5
+radiusVulpusExcavator=2 #Excavation radius for Vulpus Excavator | default: 2
+

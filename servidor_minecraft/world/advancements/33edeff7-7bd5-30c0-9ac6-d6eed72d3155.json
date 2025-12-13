@@ -1,0 +1,33 @@
+{
+  "formidulus:root": {
+    "criteria": {
+      "tick": "2025-12-11 23:07:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-12-11 23:07:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-12-11 23:07:26 +0000"
+    },
+    "done": true
+  },
+  "tpa:first_join": {
+    "criteria": {
+      "tick": "2025-12-11 23:07:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-12-11 23:07:27 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

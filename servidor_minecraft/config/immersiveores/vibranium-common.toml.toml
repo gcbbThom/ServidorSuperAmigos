@@ -1,0 +1,62 @@
+
+# --- --- Vibranium Armor Protection and Resistance --- ---
+protectionValueVibraniumBoots=6 #Protection value of Vibranium Boots | default: 6
+protectionValueVibraniumLeggings=9 #Protection value of Vibranium Leggings | default: 9
+protectionValueVibraniumChestplate=12 #Protection value of Vibranium Chestplate | default: 12
+protectionValueVibraniumHelmet=6 #Protection value of Vibranium Helmet | default: 6
+toughnessValueVibraniumArmor=3 #Toughness value of Vibranium Armor | default: 3
+knockbackResistanceValueVibraniumArmor=1 #Knockback resistance of Vibranium Armor | default: 1
+enchantmentValueVibraniumArmor=55 #Enchantment value of Vibranium Armor | default: 55
+
+# --- --- Vibranium Armor Special Effects and Abilities --- ---
+speedIVibraniumArmor=true #Speed I effect for Vibranium Armor | default: true
+jumpIVibraniumArmor=true #Jump I effect for Vibranium Armor | default: true
+nightVisionVibraniumArmor=true #Night Vision effect for Vibranium Armor | default: true
+canWalkOnPowderedSnowVibranium=true #Can walk on powdered snow with Vibranium Armor | default: true
+
+# --- --- Vibranium Bow Settings --- ---
+enchantmentValueVibraniumBow=5 #Enchantment value of Vibranium Bow | default: 5
+damageVibraniumBow=5 #Damage value of Vibranium Bow | default: 5
+arrowCountVibraniumBow=2 #Arrow count for Vibranium Bow | default: 2
+
+# --- --- Vibranium Tool Tier Base Properties --- ---
+speedVibraniumTier=30 #Speed value of Vibranium tier | default: 30
+enchantmentValueVibraniumTier=55 #Enchantment value of Vibranium tier | default: 55
+attackDamageBonusVibraniumTier=1 #Attack damage bonus of Vibranium tier | default: 1
+durabilityVibranium=2562 #Durability of Vibranium tools | default: 2562
+unbreakableVibranium=false #Whether Vibranium tools are unbreakable | default: false
+
+# --- --- Vibranium Pickaxe Stats --- ---
+attackDamageVibraniumPickaxe=7 #Attack damage of Vibranium Pickaxe | default: 7
+attackSpeedVibraniumPickaxe=0.5 #Attack speed of Vibranium Pickaxe | default: 0.5
+
+# --- --- Vibranium Axe Stats --- ---
+attackDamageVibraniumAxe=12 #Attack damage of Vibranium Axe | default: 12
+attackSpeedVibraniumAxe=0.5 #Attack speed of Vibranium Axe | default: 0.5
+
+# --- --- Vibranium Shovel Stats --- ---
+attackDamageVibraniumShovel=7 #Attack damage of Vibranium Shovel | default: 7
+attackSpeedVibraniumShovel=0.5 #Attack speed of Vibranium Shovel | default: 0.5
+
+# --- --- Vibranium Sword Stats --- ---
+attackDamageVibraniumSword=10 #Attack damage of Vibranium Sword | default: 10
+attackSpeedVibraniumSword=0.5 #Attack speed of Vibranium Sword | default: 0.5
+
+# --- --- Vibranium Hoe Stats --- ---
+attackDamageVibraniumHoe=7 #Attack damage of Vibranium Hoe | default: 7
+attackSpeedVibraniumHoe=0.5 #Attack speed of Vibranium Hoe | default: 0.5
+
+# --- --- Vibranium Paxel Stats --- ---
+attackDamageVibraniumPaxel=11 #Attack damage of Vibranium Paxel | default: 11
+attackSpeedVibraniumPaxel=0.5 #Attack speed of Vibranium Paxel | default: 0.5
+
+# --- --- Vibranium Hammer Stats --- ---
+attackDamageVibraniumHammer=7 #Attack damage of Vibranium Hammer | default: 7
+attackSpeedVibraniumHammer=0.5 #Attack speed of Vibranium Hammer | default: 0.5
+radiusVibraniumHammer=1 #Hammering radius for Vibranium Hammer | default: 1
+
+# --- --- Vibranium Excavator Stats --- ---
+attackDamageVibraniumExcavator=7 #Attack damage of Vibranium Excavator | default: 7
+attackSpeedVibraniumExcavator=0.5 #Attack speed of Vibranium Excavator | default: 0.5
+radiusVibraniumExcavator=1 #Excavation radius for Vibranium Excavator | default: 1
+

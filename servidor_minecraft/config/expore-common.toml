@@ -1,0 +1,18 @@
+{
+  "expOre": {
+    "minExperience": 50,
+    "maxExperience": 80
+  },
+  "deepslateExpOre": {
+    "minExperience": 50,
+    "maxExperience": 80
+  },
+  "netherExpOre": {
+    "minExperience": 50,
+    "maxExperience": 80
+  },
+  "endExpOre": {
+    "minExperience": 50,
+    "maxExperience": 80
+  }
+}

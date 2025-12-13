@@ -1,0 +1,68 @@
+
+# --- Enderium Armor Protection and Resistance ---
+protectionValueEnderiumBoots=12 #Protection value of Enderium Boots | default: 12
+protectionValueEnderiumLeggings=16 #Protection value of Enderium Leggings | default: 16
+protectionValueEnderiumChestplate=20 #Protection value of Enderium Chestplate | default: 20
+protectionValueEnderiumHelmet=12 #Protection value of Enderium Helmet | default: 12
+toughnessValueEnderiumArmor=10 #Toughness value of Enderium Armor | default: 10
+knockbackResistanceValueEnderiumArmor=3 #Knockback resistance of Enderium Armor | default: 3
+enchantmentValueEnderiumArmor=65 #Enchantment value of Enderium Armor | default: 65
+
+# --- Enderium Armor Special Effects and Abilities ---
+speedIIIEnderiumArmor=true #Speed III effect for Enderium Armor | default: true
+jumpIIIEnderiumArmor=true #Jump III effect for Enderium Armor | default: true
+nightVisionEnderiumArmor=true #Night Vision effect for Enderium Armor | default: true
+immuneToFallDamageEnderiumArmor=true #Immunity to fall damage for Enderium Armor | default: true
+fireResistanceEnderiumArmor=true #Fire resistance for Enderium Armor | default: true
+neverLoseHungerEnderiumArmor=true #Never lose hunger with Enderium Armor | default: true
+canFlyEnderiumArmor=true #Ability to fly with Enderium Armor | default: true
+canWalkOnPowderedSnowEnderium=true #Can walk on powdered snow with Enderium Armor | default: true
+makesPiglinsNeutralEnderium=true #Makes Piglins neutral with Enderium Armor | default: true
+endermanWillNotBeAngryWithYouEnderium=true #Endermen won't be angry with you with Enderium Armor | default: true
+
+# --- Enderium Bow Settings ---
+enchantmentValueEnderiumBow=5 #Enchantment value of Enderium Bow | default: 5
+damageEnderiumBow=14 #Damage value of Enderium Bow | default: 14
+arrowCountEnderiumBow=4 #Arrow count for Enderium Bow | default: 4
+
+# --- Enderium Tool Tier Base Properties ---
+speedEnderiumTier=50 #Speed value of Enderium tier | default: 50
+enchantmentValueEnderiumTier=65 #Enchantment value of Enderium tier | default: 65
+attackDamageBonusEnderiumTier=3 #Attack damage bonus of Enderium tier | default: 3
+durabilityEnderium=5139 #Durability of Enderium tools | default: 5139
+unbreakableEnderium=false #Whether Enderium tools are unbreakable | default: false
+
+# --- Enderium Pickaxe Stats ---
+attackDamageEnderiumPickaxe=15 #Attack damage of Enderium Pickaxe | default: 15
+attackSpeedEnderiumPickaxe=1.0 #Attack speed of Enderium Pickaxe | default: 1.0
+
+# --- Enderium Axe Stats ---
+attackDamageEnderiumAxe=18 #Attack damage of Enderium Axe | default: 18
+attackSpeedEnderiumAxe=1.0 #Attack speed of Enderium Axe | default: 1.0
+
+# --- Enderium Shovel Stats ---
+attackDamageEnderiumShovel=15 #Attack damage of Enderium Shovel | default: 15
+attackSpeedEnderiumShovel=1.0 #Attack speed of Enderium Shovel | default: 1.0
+
+# --- Enderium Sword Stats ---
+attackDamageEnderiumSword=22 #Attack damage of Enderium Sword | default: 22
+attackSpeedEnderiumSword=1.0 #Attack speed of Enderium Sword | default: 1.0
+
+# --- Enderium Hoe Stats ---
+attackDamageEnderiumHoe=15 #Attack damage of Enderium Hoe | default: 15
+attackSpeedEnderiumHoe=1.0 #Attack speed of Enderium Hoe | default: 1.0
+
+# --- Enderium Paxel Stats ---
+attackDamageEnderiumPaxel=18 #Attack damage of Enderium Paxel | default: 18
+attackSpeedEnderiumPaxel=1.0 #Attack speed of Enderium Paxel | default: 1.0
+
+# --- Enderium Hammer Stats ---
+attackDamageEnderiumHammer=16 #Attack damage of Enderium Hammer | default: 16
+attackSpeedEnderiumHammer=1.0 #Attack speed of Enderium Hammer | default: 1.0
+radiusEnderiumHammer=3 #Hammering radius for Enderium Hammer | default: 3
+
+# --- Enderium Excavator Stats ---
+attackDamageEnderiumExcavator=16 #Attack damage of Enderium Excavator | default: 16
+attackSpeedEnderiumExcavator=1.0 #Attack speed of Enderium Excavator | default: 1.0
+radiusEnderiumExcavator=3 #Excavation radius for Enderium Excavator | default: 3
+
